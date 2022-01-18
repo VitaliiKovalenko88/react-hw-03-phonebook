@@ -60,12 +60,11 @@ export class App extends Component {
 
     if (searchSameContact) {
       alert(`Ну шо не видно, что ${name} таки есть уже?????!!!`);
-      console.log(searchSameContact);
+
       return;
     }
 
     this.setState(({ contacts }) => ({ contacts: [dataContact, ...contacts] }));
-    console.log(this.state.contacts);
   };
 
   deleteContact = contactId => {

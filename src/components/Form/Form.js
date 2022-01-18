@@ -25,7 +25,7 @@ export class Form extends Component {
   };
 
   reset = () => {
-    this.setState({ name: '', number: '' });
+    this.setState(INITIAL_STATE);
   };
 
   render() {
