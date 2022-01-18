@@ -1,0 +1,20 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+
+ 
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showAbbreviationSuggestions": false,
+  "emmet.showSuggestionsAsSnippets": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  
+
+
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+}
